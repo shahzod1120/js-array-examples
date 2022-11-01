@@ -1,3 +1,4 @@
+
 'use strict'
 
 // *************** 3-dars Array *******************
@@ -223,10 +224,11 @@
 //    for (let j = 0; j < arr.length; j++) {
 //         if(i != j && arr[i] == arr[j]){
 //             console.log(arr[i])
-//             arr.splice(i,i+1)
+//             arr.splice(i,1)
 //         }
 //    }
 // }
+// console.log(arr);
 
 // M-18
 // let n = +prompt('n = ')
