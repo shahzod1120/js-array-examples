@@ -218,17 +218,16 @@
 
 
 // M-17
-// let arr = [2,4,6,7,2,8,11,6];
-// console.log(arr);
-// for (let i = 0; i < arr.length; i++) {
-//    for (let j = 0; j < arr.length; j++) {
-//         if(i != j && arr[i] == arr[j]){
-//             console.log(arr[i])
-//             arr.splice(i,1)
-//         }
-//    }
+// let a = [2,4,6,7,2,8,11,6];
+// let b = [9,4,13,7,2,8,12,6];
+// let c = a.concat(b)
+// let d = []
+// for (let i = 0; i < c.length; i++) {
+//   if(!d.includes(c[i])){
+//     d.push(c[i])
+//   }
 // }
-// console.log(arr);
+// console.log(d);
 
 // M-18
 // let n = +prompt('n = ')
